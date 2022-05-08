@@ -1,4 +1,4 @@
-@media(max-width:740px){
+@media(max-width:739px){
     #nav>li{
         display: block;
         position: relative;
@@ -24,16 +24,74 @@
     .subnav>li>a{
         color: rgb(250, 249, 249) !important;
     }
-    /* #nav #more{
-        display: none;
-    } */
-    
+    .content-section .member-item{
+        width: 100%;
+    }
+    #content .members-list{
+        display: block;
+    }
+    #content .members-list .member-img {
+        width: 60%;
+    }
+    .places-list{
+        display: block !important;
+    }
+    #contact .contact-items{
+        display: block !important;
+        width: 100% !important;
+    }
+    .s-col-full{
+        width: 100% !important;
+    }
+
+    .display-block{
+        display: block !important;
+    }
+    .padding-top-8{
+        padding-top: 8px !important;
+    }
+ 
 }
 
-@media(min-width:741px){
+
+/* pc  */
+@media(min-width:1024px){
     .menu-btn{
         display: none;
 
+    }
+    
+}
+/* Tablet  */
+@media(min-width:720px) and (max-width:1023px){
+    .menu-btn{
+        display: none;
+
+    }
+    
+}
+
+/* Tablet & mobile  */
+@media (max-width: 1023px){
+    .btn{
+        padding: 15px 16px;
+
+    }
+
+    .contact-form .form-control{
+        padding: 15px;
+    }
+
+    .social-list{
+        font-size: 48px;
+    }
+
+    .copyright a {
+        display: inline-block;
+        padding: 12px;
+    }
+    .subnav>li>a{
+        padding: 5px 12px;
     }
     
 }

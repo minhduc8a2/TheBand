@@ -104,13 +104,10 @@ html{
 #slider{
     margin-top: 46px;
    height: 50vw;
-   background: url('/assets/img/slider/slider1.jpg') top center / cover no-repeat;
+   background: url('./assets/img/slider/slider1.jpg') top center / cover no-repeat;
    color: white;
    position: relative;
    z-index: -1;
-  
-  
-  
    
 }
 #slider .text-content{
@@ -124,6 +121,7 @@ html{
     padding: 32px 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 40px;
+    text-shadow: 0 0 2px #000;
 
 }
 
@@ -228,8 +226,8 @@ html{
 }
 .places-list{
  
-    margin-top: 32px;
-    display: flex;
+    margin-top: 16px;
+   
    
 
 
@@ -412,7 +410,7 @@ html{
     padding-bottom: 8px;
 }
 .col{
-    padding: 0 8px;
+    padding: 16px 8px;
     display: block;
 }
 
@@ -426,9 +424,19 @@ html{
 .col-full{
     width: 100%;
 }
+.padding-tb-0px{
+    padding-top: 0px ;
+    padding-bottom: 0px ;
+}
+
 .padding-top-bot-32{
     padding: 32px 0;
 }
+
+.padding-top-16{
+    padding-top: 16px !important;
+}
+
 .contact-info i{
     width: 30px;
     line-height: 1.5;
